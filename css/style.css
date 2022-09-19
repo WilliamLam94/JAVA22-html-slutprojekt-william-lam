@@ -1,8 +1,13 @@
 * {
-	margin: 0;
-	padding: 10px;
+	margin: 0px;
+	padding: 10px 20px;
 	font-family: sans-serif;
 }
+
+img {
+	width: 100%;
+}
+
 body {
 	background: rgba(0, 0, 0, 0.65);
 	color: white;
@@ -13,19 +18,40 @@ h1 {
 	justify-content: center;
 }
 
+a {
+	border: 5px solid;
+	text-decoration: none;
+	color: rgb(8, 7, 7);
+	background-color: orange;
+}
+
 header {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
+}
+
+main {
+	border: 10px solid black;
+	padding: 0px;
 }
 
 .navbar {
 	display: flex;
-	flex-wrap: wrap;
-	padding: 10px;
+	flex-basis: wrap;
+	justify-content: space-evenly;
 	font-weight: bold;
 	list-style-type: none;
 }
 
-img {
-	width: 20%;
+.container {
+	display: flex;
+	flex-direction: row;
+	border: 20px solid orange;
+}
+.flex-item {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 10px;
 }

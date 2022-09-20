@@ -133,21 +133,14 @@ footer {
 
 /* Project CSS */
 
-.project-section {
-	padding: 20px 10px;
-}
-
-.alpha-container {
+.project-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
 }
 
 .alpha {
 	width: 50%;
-}
-
-.beta-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
 }
 
 .beta {

@@ -67,7 +67,7 @@ a :hover {
 }
 
 .about-picture {
-	width: 50%;
+	width: 30%;
 	border-radius: 50%;
 	overflow: hidden;
 	box-shadow: 0 8px 16px rgba(0, 0, 0, 16);
@@ -94,7 +94,6 @@ main {
 }
 
 .project-images {
-	height: 100%;
 	width: 100%;
 }
 

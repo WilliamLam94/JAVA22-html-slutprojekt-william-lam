@@ -133,16 +133,28 @@ footer {
 
 /* Project CSS */
 
+.project-section {
+	max-width: 100%;
+	padding: 20px;
+}
+
 .project-container {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px 0px;
 }
 
 .alpha {
-	width: 300px;
+	width: 30%;
+}
+
+.project-img3 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .beta {
-	width: 100px;
+	width: 250px;
 }

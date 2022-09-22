@@ -157,9 +157,10 @@ ul {
 .project-img3 {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: center;
 }
 
 .beta {
 	width: 15%;
+	padding: 20px;
 }

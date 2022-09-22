@@ -46,12 +46,6 @@ nav {
 	padding: 10px;
 }
 
-h4 {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
 a {
 	text-decoration: none;
 	color: white;
@@ -71,6 +65,12 @@ main {
 section {
 	max-width: 60%;
 	padding: 20px;
+}
+
+h4 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .about-me__picture {
